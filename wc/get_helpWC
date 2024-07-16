@@ -1,0 +1,26 @@
+Utilisation : wc [OPTION]... [FICHIER]...
+         ou : wc [OPTION]... --files0-from=F
+Afficher le nombre de sauts de ligne, de mots et d'octets pour chaque FICHIER
+et une ligne totale si plus d'un fichier est spécifié. Un mot est une séquence
+de taille non nulle de caractères délimités par une espace.
+
+Sans FICHIER ou quand FICHIER est -, lire l'entrée standard.
+
+Les options ci-dessous permettent de sélectionner les compteurs à afficher,
+qui sont toujours utilisés dans l'ordre suivant : saut de ligne, mot, caractère,
+octet, longueur de ligne maximale.
+  -c, --bytes            afficher le nombre d'octets
+  -m, --chars            afficher le nombre de caractères
+  -l, --lines            afficher le nombre de sauts de lignes
+      --files0-from=F    lire l'entrée depuis les fichiers indiqués par
+                           des noms terminant par NUL dans le fichier F
+  -L, --max-line-length  afficher la largeur maximale d'affichage
+  -w, --words            afficher le nombre de mots
+      --help     afficher l'aide et quitter
+      --version  afficher des informations de version et quitter
+
+Aide en ligne de GNU coreutils : <https://www.gnu.org/software/coreutils/>
+Signalez les problèmes de traduction de « wc » à : <traduc@traduc.org>
+Documentation complète à : <https://www.gnu.org/software/coreutils/wc>
+ou disponible localement via: info '(coreutils) wc invocation'
+
